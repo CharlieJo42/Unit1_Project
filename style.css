@@ -1,0 +1,66 @@
+body {
+    background-image: url("https://images.assetsdelivery.com/compings_v2/andreykuzmin/andreykuzmin1410/andreykuzmin141000001.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'IM Fell English SC', serif;
+  
+  }
+  
+  h1 {
+   color:black;
+   font-size: 55px;
+   font-family: 'IM Fell English SC', serif;
+   text-align: center;
+   margin-top: 0px;
+   margin-bottom: 0px;
+  
+  }
+  
+  h2 {
+    color:black;
+    font-size: 30px;
+    font-family: 'IM Fell English SC', serif;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+div button {
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height:70px;
+    border: 4px solid rgb(78, 54, 23);
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1px;
+    
+  }
+
+  .mapRow1{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mapRow2{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mapRow3{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mapRow4{
+     display: flex;
+     margin: 0 auto;
+     align-items: center;
+     justify-content: center;
+   }
