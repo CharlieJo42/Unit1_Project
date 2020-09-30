@@ -11,7 +11,7 @@ var pirate2 = document.getElementById("2")
 pirate2.addEventListener("click", arr2);
 function arr2 () {
     document.getElementById("2").style.backgroundColor = "black";
-    alert("Arrghh you've been caught! Fork over the gold!");
+    alert("Arrghh you've been caught! You lose!");
     location.reload();
 }
 
@@ -32,7 +32,7 @@ var pirate4 = document.getElementById("4")
 pirate4.addEventListener("click", arr4);
 function arr4 () {
     document.getElementById("4").style.backgroundColor = "black";
-    alert("Time for you to walk the plank!");
+    alert("You lose! Time for you to walk the plank!");
     location.reload();
 }
 
@@ -42,7 +42,7 @@ var pirate5 = document.getElementById("5")
 pirate5.addEventListener("click", arr5);
 function arr5 () {
     document.getElementById("5").style.backgroundColor = "black";
-    alert("Thought you could escape, huh?");
+    alert("You lose! Thought you could escape, huh?");
     location.reload();
 }
 
@@ -72,7 +72,7 @@ pirate8.addEventListener("click", arr8);
 function arr8 () {
     document.getElementById("8").style.backgroundColor = "lightgreen";
     document.getElementById("8").style.backgroundColor = "black";
-    alert("Not so fast there, cabin boy!");
+    alert("You lose! Not so fast there, cabin boy!");
     location.reload();
 }
 
@@ -83,7 +83,7 @@ var pirate9 = document.getElementById("9")
 pirate9.addEventListener("click", arr9);
 function arr9 () {
     document.getElementById("9").style.backgroundColor = "black";
-    alert("Betcha didn't think the parrot would talk!");
+    alert("You've lost! Betcha didn't think the parrot would talk!");
     location.reload();
 }
 
@@ -112,8 +112,8 @@ var pirate12 = document.getElementById("12")
 
 pirate12.addEventListener("click", arr12);
 function arr12 () {
-    document.getElementById("12").style.backgroundColor = "black";
-    alert("I hope you can swim!");
+    document.getElementById("12").style.backgroundColor = "yellow";
+    alert("Wait you found the gold!? Uh...best two out of three, yeah?");
     location.reload();
 }
 
@@ -132,7 +132,7 @@ var pirate14 = document.getElementById("14")
 pirate14.addEventListener("click", arr14);
 function arr14 () {
     document.getElementById("14").style.backgroundColor = "black";
-    alert("There's not enough room on this island for all of us!");
+    alert("You lose! There's not enough room on this island for all of us!");
     location.reload();
 }
 
@@ -178,7 +178,7 @@ var pirate19 = document.getElementById("19")
 pirate19.addEventListener("click", arr19);
 function arr19 () {
     document.getElementById("19").style.backgroundColor = "black";
-    alert("You never stood a chance to escape!");
+    alert("You lose! You never stood a chance to escape!");
     location.reload();
 }
 
@@ -189,6 +189,6 @@ pirate20.addEventListener("click", arr20,);
 
 function arr20 () {
     document.getElementById("20").style.backgroundColor = "black";
-    alert("I called dibs on your boots");
+    alert("Ha! You lose. I called dibs on your boots");
     location.reload();
 }  
